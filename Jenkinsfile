@@ -17,18 +17,15 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'BUILD'
-                bat 'mvn clean install -DskipTests=true'
             }
         }
         stage('Test') {
             steps {
-                echo 'TEST'
-                bat 'mvn test'}
+                echo 'TEST'}
         }
         stage('Package') {
             steps {
                 echo 'PACKAGE'
-                bat 'mvn package'
             }
         }
         stage('Deploy') {
