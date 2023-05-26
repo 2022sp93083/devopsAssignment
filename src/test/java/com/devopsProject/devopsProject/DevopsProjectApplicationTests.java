@@ -9,7 +9,7 @@ class DevopsProjectApplicationTests {
 
 	@Test
 	void contextLoads() {
-		assertEquals(4.a);
+		assertEquals(4,a);
 	}
 
 }
