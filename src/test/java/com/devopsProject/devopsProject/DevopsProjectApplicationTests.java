@@ -5,9 +5,11 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class DevopsProjectApplicationTests {
+	int a= 4;
 
 	@Test
 	void contextLoads() {
+		assertEquals(4.a);
 	}
 
 }
